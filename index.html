@@ -7,7 +7,7 @@
     <link href="/src/style.css" rel="stylesheet" />
     <title>Forest</title>
   </head>
-  <body class="bg-verde-800 font-sans">
+  <body class="bg-verde-800 font-sans mb-96">
     <div class="container mt-4 flex justify-center md:justify-start">
       <div class="inline-flex items-center rounded-md bg-verde-900">
         <span
@@ -54,5 +54,50 @@
         </ul>
       </nav>
     </header>
+
+    <main class="container">
+      <div class="text-white px-8 pb-8 pt-64 relative bg-linear-to-t from-verde-900/80 rounded-2xl overflow-hidden">
+        <img
+          class="absolute -z-10 size-full object-cover inset-0"
+          src="./public/images/photos/floresta.jpg"
+          alt=""
+        />
+        <div
+          class="bg-verde-900 inline-flex mb-8 items-center py-1 pr-1 pl-4 rounded-full gap-8"
+        >
+          <span>vagas para dezembro abertas</span>
+          <a
+            class="bg-verde-400 text-verde-900 py-2 px-4 inline-block rounded-full"
+            href=""
+            >Reserve Hoje</a
+          >
+        </div>
+        <h1 class="text-5xl text-balance max-w-screen-sm font-serif mb-20">
+          Venha Experimentar a Vida na Floresta
+        </h1>
+        <div class="text-sm flex justify-between items-end">
+          <p>
+            Melhores locais para visitar
+            <a
+              class="underline decoration-2 underline-offset-4 hover:no-underline"
+              href=""
+              >2026</a
+            >
+          </p>
+          <div>
+            <p class="uppercase mb-2">Recomendado por</p>
+            <p class="flex items-center gap-4">
+              <img
+                class="w-28"
+                src="./public/images/parceiros/wildbeast.svg"
+                alt="WildBeast"
+              />
+              <span>|</span>
+              <span>Revista Nacional</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
